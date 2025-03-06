@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_426c4a6ba881921b2f6d228fd055ff68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_426c4a6ba881921b2f6d228fd055ff68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_426c4a6ba881921b2f6d228fd055ff68 = L.map(
+                "map_426c4a6ba881921b2f6d228fd055ff68",
+                {
+                    center: [39.8, 116.3],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_404d0739fafd4c54c9d8e2caf244a4eb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_404d0739fafd4c54c9d8e2caf244a4eb.addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+            var marker_1da602b695da9963cc798ad9d71bd792 = L.marker(
+                [39.8, 116.3],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_00833ea5939e7e25a940e5c7be609844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba0eafe1fbef1d525fe130ec93c5bcb7 = $(`<div id="html_ba0eafe1fbef1d525fe130ec93c5bcb7" style="width: 100.0%; height: 100.0%;">拼多多配送中心</div>`)[0];
+                popup_00833ea5939e7e25a940e5c7be609844.setContent(html_ba0eafe1fbef1d525fe130ec93c5bcb7);
+            
+        
+
+        marker_1da602b695da9963cc798ad9d71bd792.bindPopup(popup_00833ea5939e7e25a940e5c7be609844)
+        ;
+
+        
+    
+    
+            var marker_d63c12ea6b88f1c56c5f5b7b2b0c8fc2 = L.marker(
+                [39.86472490126752, 116.01071094258948],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_e71cd1bf5c2bbc6b7bc026b02b924fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1008568104460f0e49fa444311ec5f0 = $(`<div id="html_b1008568104460f0e49fa444311ec5f0" style="width: 100.0%; height: 100.0%;">顺义镇</div>`)[0];
+                popup_e71cd1bf5c2bbc6b7bc026b02b924fc3.setContent(html_b1008568104460f0e49fa444311ec5f0);
+            
+        
+
+        marker_d63c12ea6b88f1c56c5f5b7b2b0c8fc2.bindPopup(popup_e71cd1bf5c2bbc6b7bc026b02b924fc3)
+        ;
+
+        
+    
+    
+            var marker_8c8cd54407b81592087d19791ebe769f = L.marker(
+                [39.8940627036673, 116.38926687870809],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_c2e3fe5a6e5f73ffac1f7cbf2edbbd48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6578c457d131671da5121f0d1681cb71 = $(`<div id="html_6578c457d131671da5121f0d1681cb71" style="width: 100.0%; height: 100.0%;">南法信镇</div>`)[0];
+                popup_c2e3fe5a6e5f73ffac1f7cbf2edbbd48.setContent(html_6578c457d131671da5121f0d1681cb71);
+            
+        
+
+        marker_8c8cd54407b81592087d19791ebe769f.bindPopup(popup_c2e3fe5a6e5f73ffac1f7cbf2edbbd48)
+        ;
+
+        
+    
+    
+            var marker_39af3f27cb838b58ffcea94f1b8cc9a3 = L.marker(
+                [39.63529569448665, 116.16705956315968],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_c339279a982b7b39a4dfeb4a18bc9392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f66896fe56b586145a5b5f0647cd49 = $(`<div id="html_a1f66896fe56b586145a5b5f0647cd49" style="width: 100.0%; height: 100.0%;">李桥镇</div>`)[0];
+                popup_c339279a982b7b39a4dfeb4a18bc9392.setContent(html_a1f66896fe56b586145a5b5f0647cd49);
+            
+        
+
+        marker_39af3f27cb838b58ffcea94f1b8cc9a3.bindPopup(popup_c339279a982b7b39a4dfeb4a18bc9392)
+        ;
+
+        
+    
+    
+            var marker_2d4e071f2c910436a5254fe381bd180a = L.marker(
+                [39.9398697493028, 116.11502032267674],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_6b3d722b8237449847be00eea719e2ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb3c961a472a865d94eaea40cb2e858 = $(`<div id="html_8bb3c961a472a865d94eaea40cb2e858" style="width: 100.0%; height: 100.0%;">高丽营镇</div>`)[0];
+                popup_6b3d722b8237449847be00eea719e2ab.setContent(html_8bb3c961a472a865d94eaea40cb2e858);
+            
+        
+
+        marker_2d4e071f2c910436a5254fe381bd180a.bindPopup(popup_6b3d722b8237449847be00eea719e2ab)
+        ;
+
+        
+    
+    
+            var marker_7f688c69c9982f973241d0a3dc19aa59 = L.marker(
+                [39.613204297083605, 116.10367756580828],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_d3d496b01ced438ab788c06a256cedfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43c37c47988f9b3de5149fe99adeb69b = $(`<div id="html_43c37c47988f9b3de5149fe99adeb69b" style="width: 100.0%; height: 100.0%;">昌平镇</div>`)[0];
+                popup_d3d496b01ced438ab788c06a256cedfc.setContent(html_43c37c47988f9b3de5149fe99adeb69b);
+            
+        
+
+        marker_7f688c69c9982f973241d0a3dc19aa59.bindPopup(popup_d3d496b01ced438ab788c06a256cedfc)
+        ;
+
+        
+    
+    
+            var marker_37e0ca0e544787c5b2047adee42bd288 = L.marker(
+                [39.78771123021347, 116.23163704820448],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_0e540c7bff298665a4e4dfd90af5a5ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a9fc8007df43e018ba2df9b6a556898 = $(`<div id="html_9a9fc8007df43e018ba2df9b6a556898" style="width: 100.0%; height: 100.0%;">生命园镇</div>`)[0];
+                popup_0e540c7bff298665a4e4dfd90af5a5ab.setContent(html_9a9fc8007df43e018ba2df9b6a556898);
+            
+        
+
+        marker_37e0ca0e544787c5b2047adee42bd288.bindPopup(popup_0e540c7bff298665a4e4dfd90af5a5ab)
+        ;
+
+        
+    
+    
+            var marker_762f62ca65ab6ef3c8c28dce7bb3c63a = L.marker(
+                [39.61606674541379, 116.06596793457648],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_893c735bd719b79da4a2d5b73d7b4794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8fb47c333c10bf985de49053c04e547 = $(`<div id="html_a8fb47c333c10bf985de49053c04e547" style="width: 100.0%; height: 100.0%;">小汤山镇</div>`)[0];
+                popup_893c735bd719b79da4a2d5b73d7b4794.setContent(html_a8fb47c333c10bf985de49053c04e547);
+            
+        
+
+        marker_762f62ca65ab6ef3c8c28dce7bb3c63a.bindPopup(popup_893c735bd719b79da4a2d5b73d7b4794)
+        ;
+
+        
+    
+    
+            var marker_b192007f5fb20d7c549353096100d451 = L.marker(
+                [39.912387481114095, 116.25236357704765],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_77f1539d3a7bc6587af4035f074e9fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8e4cd7dd6070b9172e74e8714a7c0ce = $(`<div id="html_d8e4cd7dd6070b9172e74e8714a7c0ce" style="width: 100.0%; height: 100.0%;">黄村镇</div>`)[0];
+                popup_77f1539d3a7bc6587af4035f074e9fb0.setContent(html_d8e4cd7dd6070b9172e74e8714a7c0ce);
+            
+        
+
+        marker_b192007f5fb20d7c549353096100d451.bindPopup(popup_77f1539d3a7bc6587af4035f074e9fb0)
+        ;
+
+        
+    
+    
+            var marker_d74013608f103e1cef1d5c4fa9108152 = L.marker(
+                [39.689209167808045, 116.00046502709232],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_e4b396c5fc9007858e3d8fcd6d20724d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b7b38e9d4758252e54ffe34c7f3d728 = $(`<div id="html_5b7b38e9d4758252e54ffe34c7f3d728" style="width: 100.0%; height: 100.0%;">青云店镇</div>`)[0];
+                popup_e4b396c5fc9007858e3d8fcd6d20724d.setContent(html_5b7b38e9d4758252e54ffe34c7f3d728);
+            
+        
+
+        marker_d74013608f103e1cef1d5c4fa9108152.bindPopup(popup_e4b396c5fc9007858e3d8fcd6d20724d)
+        ;
+
+        
+    
+    
+            var marker_6ac79d76e75e98c7e47638708b71cf12 = L.marker(
+                [39.82339649202371, 116.2250924495033],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_211ca8bce9e4b9fed62c25946341f689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6609d2aeee04d143acc66ff3f2d04b17 = $(`<div id="html_6609d2aeee04d143acc66ff3f2d04b17" style="width: 100.0%; height: 100.0%;">果园镇</div>`)[0];
+                popup_211ca8bce9e4b9fed62c25946341f689.setContent(html_6609d2aeee04d143acc66ff3f2d04b17);
+            
+        
+
+        marker_6ac79d76e75e98c7e47638708b71cf12.bindPopup(popup_211ca8bce9e4b9fed62c25946341f689)
+        ;
+
+        
+    
+    
+            var marker_384b0aac9a6d93ca95720339e4c8543a = L.marker(
+                [39.60942756734846, 116.26673462816322],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_380a685a8b008ab96f9dd63a4b043ec0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c66184736225c292e91af2cdf90a400 = $(`<div id="html_7c66184736225c292e91af2cdf90a400" style="width: 100.0%; height: 100.0%;">长沟镇</div>`)[0];
+                popup_380a685a8b008ab96f9dd63a4b043ec0.setContent(html_7c66184736225c292e91af2cdf90a400);
+            
+        
+
+        marker_384b0aac9a6d93ca95720339e4c8543a.bindPopup(popup_380a685a8b008ab96f9dd63a4b043ec0)
+        ;
+
+        
+    
+    
+            var marker_e444ff470c9f5a4bc3bd8bb7b830bcb2 = L.marker(
+                [39.837581423420986, 116.28247225934535],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_3e0d5530efc57e0c62f2be0becad56d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_711ab1fcd181eb36872bc76bc7d47e06 = $(`<div id="html_711ab1fcd181eb36872bc76bc7d47e06" style="width: 100.0%; height: 100.0%;">南宫镇</div>`)[0];
+                popup_3e0d5530efc57e0c62f2be0becad56d9.setContent(html_711ab1fcd181eb36872bc76bc7d47e06);
+            
+        
+
+        marker_e444ff470c9f5a4bc3bd8bb7b830bcb2.bindPopup(popup_3e0d5530efc57e0c62f2be0becad56d9)
+        ;
+
+        
+    
+    
+            var marker_6f222c7cca59bd03524a7b7e1d4e89dc = L.marker(
+                [39.73832561456913, 116.4034588647392],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_85e1fe03ec6877cc18cddee6dc4e2116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bc510e0007f85c217ceb66ec7744057 = $(`<div id="html_9bc510e0007f85c217ceb66ec7744057" style="width: 100.0%; height: 100.0%;">大石窝镇</div>`)[0];
+                popup_85e1fe03ec6877cc18cddee6dc4e2116.setContent(html_9bc510e0007f85c217ceb66ec7744057);
+            
+        
+
+        marker_6f222c7cca59bd03524a7b7e1d4e89dc.bindPopup(popup_85e1fe03ec6877cc18cddee6dc4e2116)
+        ;
+
+        
+    
+    
+            var marker_40d614f79077cd28ee4230a416e225df = L.marker(
+                [39.6278918951756, 116.41096448649344],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_c71f4c79ba8e54a8d0eea8ffb8510cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aec5a36e5f11c01f72cb275a0b607095 = $(`<div id="html_aec5a36e5f11c01f72cb275a0b607095" style="width: 100.0%; height: 100.0%;">通州镇</div>`)[0];
+                popup_c71f4c79ba8e54a8d0eea8ffb8510cfa.setContent(html_aec5a36e5f11c01f72cb275a0b607095);
+            
+        
+
+        marker_40d614f79077cd28ee4230a416e225df.bindPopup(popup_c71f4c79ba8e54a8d0eea8ffb8510cfa)
+        ;
+
+        
+    
+    
+            var marker_de1d84f82f57fe3ad5f8ade0a762dc7d = L.marker(
+                [39.62308799875756, 116.35937109124396],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_f42ec0b9c8761644ed4bb3acba11f4dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a86b14fcd01e4133e6d9c2f0c8161c4 = $(`<div id="html_1a86b14fcd01e4133e6d9c2f0c8161c4" style="width: 100.0%; height: 100.0%;">永乐店镇</div>`)[0];
+                popup_f42ec0b9c8761644ed4bb3acba11f4dc.setContent(html_1a86b14fcd01e4133e6d9c2f0c8161c4);
+            
+        
+
+        marker_de1d84f82f57fe3ad5f8ade0a762dc7d.bindPopup(popup_f42ec0b9c8761644ed4bb3acba11f4dc)
+        ;
+
+        
+    
+    
+            var marker_b2ab2ba35837e9cd18a72d5f19dfc7e4 = L.marker(
+                [39.99734239597796, 116.09951247962296],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_72b74a86906155e7633dcf750ee11a25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_207afbf23bb870d6263f34de1936d9b9 = $(`<div id="html_207afbf23bb870d6263f34de1936d9b9" style="width: 100.0%; height: 100.0%;">台湖镇</div>`)[0];
+                popup_72b74a86906155e7633dcf750ee11a25.setContent(html_207afbf23bb870d6263f34de1936d9b9);
+            
+        
+
+        marker_b2ab2ba35837e9cd18a72d5f19dfc7e4.bindPopup(popup_72b74a86906155e7633dcf750ee11a25)
+        ;
+
+        
+    
+    
+            var marker_c146603b6b3d05ba5ced80a92b1dfd5b = L.marker(
+                [39.68309042456631, 116.36522165481506],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_af86d1447135525548baf50667ce08dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a4da9b7482fd51e05bdc8569a32e8f4 = $(`<div id="html_1a4da9b7482fd51e05bdc8569a32e8f4" style="width: 100.0%; height: 100.0%;">东风镇</div>`)[0];
+                popup_af86d1447135525548baf50667ce08dd.setContent(html_1a4da9b7482fd51e05bdc8569a32e8f4);
+            
+        
+
+        marker_c146603b6b3d05ba5ced80a92b1dfd5b.bindPopup(popup_af86d1447135525548baf50667ce08dd)
+        ;
+
+        
+    
+    
+            var marker_5ed482b1c55d33e12982f0b391c4a820 = L.marker(
+                [39.88187061508256, 116.05406251379416],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_8e4f017135bf4d9fe18fa89ff095e6fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa693400eb2a41177f9a75125a2901be = $(`<div id="html_fa693400eb2a41177f9a75125a2901be" style="width: 100.0%; height: 100.0%;">东坝镇</div>`)[0];
+                popup_8e4f017135bf4d9fe18fa89ff095e6fb.setContent(html_fa693400eb2a41177f9a75125a2901be);
+            
+        
+
+        marker_5ed482b1c55d33e12982f0b391c4a820.bindPopup(popup_8e4f017135bf4d9fe18fa89ff095e6fb)
+        ;
+
+        
+    
+    
+            var marker_f8ef5b1f3b24063443f58938f40d1475 = L.marker(
+                [39.724794626414784, 116.34804294653118],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_ec47c079ab912d0439f5f148f0c1131f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_103f6c02e2394de809bab81b79f7cac3 = $(`<div id="html_103f6c02e2394de809bab81b79f7cac3" style="width: 100.0%; height: 100.0%;">香河镇</div>`)[0];
+                popup_ec47c079ab912d0439f5f148f0c1131f.setContent(html_103f6c02e2394de809bab81b79f7cac3);
+            
+        
+
+        marker_f8ef5b1f3b24063443f58938f40d1475.bindPopup(popup_ec47c079ab912d0439f5f148f0c1131f)
+        ;
+
+        
+    
+    
+            var marker_affc02eb2e30bf42d31f287dfb8cb43e = L.marker(
+                [39.86076337664299, 116.02812482458184],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_95d300d33d79fffc99b7d599210c7e13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e795c5cf88aa652247a5d8117b5605e9 = $(`<div id="html_e795c5cf88aa652247a5d8117b5605e9" style="width: 100.0%; height: 100.0%;">昌平区沙河镇</div>`)[0];
+                popup_95d300d33d79fffc99b7d599210c7e13.setContent(html_e795c5cf88aa652247a5d8117b5605e9);
+            
+        
+
+        marker_affc02eb2e30bf42d31f287dfb8cb43e.bindPopup(popup_95d300d33d79fffc99b7d599210c7e13)
+        ;
+
+        
+    
+    
+            var marker_f58a3a4717912001020005267f088ee6 = L.marker(
+                [39.760178096980695, 116.17304014175184],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_a9d91c4a1fb13272ccc582adc7ebbe5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40beceb431af405d618a230e3c7fabc = $(`<div id="html_e40beceb431af405d618a230e3c7fabc" style="width: 100.0%; height: 100.0%;">平谷镇</div>`)[0];
+                popup_a9d91c4a1fb13272ccc582adc7ebbe5d.setContent(html_e40beceb431af405d618a230e3c7fabc);
+            
+        
+
+        marker_f58a3a4717912001020005267f088ee6.bindPopup(popup_a9d91c4a1fb13272ccc582adc7ebbe5d)
+        ;
+
+        
+    
+    
+            var marker_5e38fe9ded53adb9e29a628df6ba0a42 = L.marker(
+                [39.692135838464, 116.03785585993784],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_8e42cf5e4be23e2b7bee03d077257408 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05910083a016b882086fddaca395b00e = $(`<div id="html_05910083a016b882086fddaca395b00e" style="width: 100.0%; height: 100.0%;">卢沟桥镇</div>`)[0];
+                popup_8e42cf5e4be23e2b7bee03d077257408.setContent(html_05910083a016b882086fddaca395b00e);
+            
+        
+
+        marker_5e38fe9ded53adb9e29a628df6ba0a42.bindPopup(popup_8e42cf5e4be23e2b7bee03d077257408)
+        ;
+
+        
+    
+    
+            var marker_52a5ef4a862fbcab6e59ac721277baa3 = L.marker(
+                [39.79035925127235, 116.36530076941096],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_ff4de4dd480d4abaceb453ba5778d4e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59a882ec5df0e63adb4d5b4b5e444721 = $(`<div id="html_59a882ec5df0e63adb4d5b4b5e444721" style="width: 100.0%; height: 100.0%;">黄土坎镇</div>`)[0];
+                popup_ff4de4dd480d4abaceb453ba5778d4e3.setContent(html_59a882ec5df0e63adb4d5b4b5e444721);
+            
+        
+
+        marker_52a5ef4a862fbcab6e59ac721277baa3.bindPopup(popup_ff4de4dd480d4abaceb453ba5778d4e3)
+        ;
+
+        
+    
+    
+            var marker_d4e59269b4b99a37b22d4b1d3a5604da = L.marker(
+                [39.83640764530772, 116.26124639045842],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_ce636f3261adc78c3a236b026d8082af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bebc75a1e90d1127bb815a6ee8a1bd62 = $(`<div id="html_bebc75a1e90d1127bb815a6ee8a1bd62" style="width: 100.0%; height: 100.0%;">冯家寨镇</div>`)[0];
+                popup_ce636f3261adc78c3a236b026d8082af.setContent(html_bebc75a1e90d1127bb815a6ee8a1bd62);
+            
+        
+
+        marker_d4e59269b4b99a37b22d4b1d3a5604da.bindPopup(popup_ce636f3261adc78c3a236b026d8082af)
+        ;
+
+        
+    
+    
+            var marker_64ae0435b881f026b52feb4fb31fe015 = L.marker(
+                [39.911847673472565, 116.48067247450598],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_fbeedba8e93beefc5acc54361d001df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd070884247fbb935c0d8e383adca3dd = $(`<div id="html_dd070884247fbb935c0d8e383adca3dd" style="width: 100.0%; height: 100.0%;">窑上镇</div>`)[0];
+                popup_fbeedba8e93beefc5acc54361d001df7.setContent(html_dd070884247fbb935c0d8e383adca3dd);
+            
+        
+
+        marker_64ae0435b881f026b52feb4fb31fe015.bindPopup(popup_fbeedba8e93beefc5acc54361d001df7)
+        ;
+
+        
+    
+    
+            var marker_4fd8c88de206645b5315495c14ccebbb = L.marker(
+                [39.68104486999947, 116.28277953801285],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_016e5547770806b417f76b670947c70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57384acfdc365f83e3d29068fa0276c5 = $(`<div id="html_57384acfdc365f83e3d29068fa0276c5" style="width: 100.0%; height: 100.0%;">南小庄镇</div>`)[0];
+                popup_016e5547770806b417f76b670947c70b.setContent(html_57384acfdc365f83e3d29068fa0276c5);
+            
+        
+
+        marker_4fd8c88de206645b5315495c14ccebbb.bindPopup(popup_016e5547770806b417f76b670947c70b)
+        ;
+
+        
+    
+    
+            var marker_9ba4ebd8de81db007f139f2052bb0ddb = L.marker(
+                [39.709414683677416, 116.39076703374556],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_04eb298bd54758f1f5cc3e66365329f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78e964ec18ee2aa87f513d19ae3a1dd5 = $(`<div id="html_78e964ec18ee2aa87f513d19ae3a1dd5" style="width: 100.0%; height: 100.0%;">邢台镇</div>`)[0];
+                popup_04eb298bd54758f1f5cc3e66365329f9.setContent(html_78e964ec18ee2aa87f513d19ae3a1dd5);
+            
+        
+
+        marker_9ba4ebd8de81db007f139f2052bb0ddb.bindPopup(popup_04eb298bd54758f1f5cc3e66365329f9)
+        ;
+
+        
+    
+    
+            var marker_4c64667ebd6e6eab8c6e6bdacb83ff6d = L.marker(
+                [39.76470189455112, 116.49115870831255],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_170dda2e2649c2f69fb99acddce479e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfabf40d07fa09689bd2b2dee1274d9a = $(`<div id="html_dfabf40d07fa09689bd2b2dee1274d9a" style="width: 100.0%; height: 100.0%;">银川镇</div>`)[0];
+                popup_170dda2e2649c2f69fb99acddce479e4.setContent(html_dfabf40d07fa09689bd2b2dee1274d9a);
+            
+        
+
+        marker_4c64667ebd6e6eab8c6e6bdacb83ff6d.bindPopup(popup_170dda2e2649c2f69fb99acddce479e4)
+        ;
+
+        
+    
+    
+            var marker_4d91a44bb79a39c60324c05ebcfc73ac = L.marker(
+                [39.88774252153158, 116.48072494535892],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_f17db082038e9eaaca432985a114b788 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88eee2a2107f79a225ab48b1b753c273 = $(`<div id="html_88eee2a2107f79a225ab48b1b753c273" style="width: 100.0%; height: 100.0%;">崔家营镇</div>`)[0];
+                popup_f17db082038e9eaaca432985a114b788.setContent(html_88eee2a2107f79a225ab48b1b753c273);
+            
+        
+
+        marker_4d91a44bb79a39c60324c05ebcfc73ac.bindPopup(popup_f17db082038e9eaaca432985a114b788)
+        ;
+
+        
+    
+    
+            var marker_20540d70235ccf31e4327aa6e1bb8ab7 = L.marker(
+                [39.764863746293024, 116.36083750211202],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_644763e683e6cc2cbc6bd008ef77d3ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3026965554896f1d84ec05afd58370c7 = $(`<div id="html_3026965554896f1d84ec05afd58370c7" style="width: 100.0%; height: 100.0%;">老庄镇</div>`)[0];
+                popup_644763e683e6cc2cbc6bd008ef77d3ac.setContent(html_3026965554896f1d84ec05afd58370c7);
+            
+        
+
+        marker_20540d70235ccf31e4327aa6e1bb8ab7.bindPopup(popup_644763e683e6cc2cbc6bd008ef77d3ac)
+        ;
+
+        
+    
+    
+            var marker_34582e162b6b8a676b6799dffd1e0b17 = L.marker(
+                [39.899429028098105, 116.16576143504628],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_0801cf9e02439ed488da72378be6b6e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd0fd2545b60e2fbdcfe3d47357d6d7 = $(`<div id="html_0fd0fd2545b60e2fbdcfe3d47357d6d7" style="width: 100.0%; height: 100.0%;">充电站1</div>`)[0];
+                popup_0801cf9e02439ed488da72378be6b6e3.setContent(html_0fd0fd2545b60e2fbdcfe3d47357d6d7);
+            
+        
+
+        marker_34582e162b6b8a676b6799dffd1e0b17.bindPopup(popup_0801cf9e02439ed488da72378be6b6e3)
+        ;
+
+        
+    
+    
+            var marker_9696c1bc7554a78a1f17fd904c74f587 = L.marker(
+                [39.78078003390953, 116.22082767435768],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_543343b5c85b917ff81f5818d4b036a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f8dbcc796193e4de6ee3041c9151b7c = $(`<div id="html_0f8dbcc796193e4de6ee3041c9151b7c" style="width: 100.0%; height: 100.0%;">充电站2</div>`)[0];
+                popup_543343b5c85b917ff81f5818d4b036a9.setContent(html_0f8dbcc796193e4de6ee3041c9151b7c);
+            
+        
+
+        marker_9696c1bc7554a78a1f17fd904c74f587.bindPopup(popup_543343b5c85b917ff81f5818d4b036a9)
+        ;
+
+        
+    
+    
+            var marker_0f48873d9b32814a0385a444bfb4a5ba = L.marker(
+                [39.90408873545441, 116.1067655009626],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_625cfa4e186bd32e4505da16edb2326f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de5b393645850853a573b4a81d71d219 = $(`<div id="html_de5b393645850853a573b4a81d71d219" style="width: 100.0%; height: 100.0%;">充电站3</div>`)[0];
+                popup_625cfa4e186bd32e4505da16edb2326f.setContent(html_de5b393645850853a573b4a81d71d219);
+            
+        
+
+        marker_0f48873d9b32814a0385a444bfb4a5ba.bindPopup(popup_625cfa4e186bd32e4505da16edb2326f)
+        ;
+
+        
+    
+    
+            var marker_246f9a8caaa8aae60c936f66f42926f3 = L.marker(
+                [39.87749955850155, 116.4822308561941],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_6acab08e13e7b5e0829193b94e1d207f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_623877ef0adc5b2fe813aca022626cae = $(`<div id="html_623877ef0adc5b2fe813aca022626cae" style="width: 100.0%; height: 100.0%;">充电站4</div>`)[0];
+                popup_6acab08e13e7b5e0829193b94e1d207f.setContent(html_623877ef0adc5b2fe813aca022626cae);
+            
+        
+
+        marker_246f9a8caaa8aae60c936f66f42926f3.bindPopup(popup_6acab08e13e7b5e0829193b94e1d207f)
+        ;
+
+        
+    
+    
+            var marker_2ac7d1e1a19a09cf00c609523b351f07 = L.marker(
+                [39.92657622916222, 116.08701057610108],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_c27ae145678687e489a8b9c12e3acf0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27d44be92ddf113ba584aeffbe2822af = $(`<div id="html_27d44be92ddf113ba584aeffbe2822af" style="width: 100.0%; height: 100.0%;">充电站5</div>`)[0];
+                popup_c27ae145678687e489a8b9c12e3acf0f.setContent(html_27d44be92ddf113ba584aeffbe2822af);
+            
+        
+
+        marker_2ac7d1e1a19a09cf00c609523b351f07.bindPopup(popup_c27ae145678687e489a8b9c12e3acf0f)
+        ;
+
+        
+    
+    
+            var marker_21d0eb8345605001543fd76648a0bc09 = L.marker(
+                [39.63960628899097, 116.28626551258232],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_a5923dc498ece16c4fc3ebca5bd8abd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7991dd5b47183372718e2b1f114fc709 = $(`<div id="html_7991dd5b47183372718e2b1f114fc709" style="width: 100.0%; height: 100.0%;">充电站6</div>`)[0];
+                popup_a5923dc498ece16c4fc3ebca5bd8abd9.setContent(html_7991dd5b47183372718e2b1f114fc709);
+            
+        
+
+        marker_21d0eb8345605001543fd76648a0bc09.bindPopup(popup_a5923dc498ece16c4fc3ebca5bd8abd9)
+        ;
+
+        
+    
+    
+            var marker_bbf8d16eb587ec881e4ada63d5ff8104 = L.marker(
+                [39.6234903043372, 116.41928489641457],
+                {}
+            ).addTo(map_426c4a6ba881921b2f6d228fd055ff68);
+        
+    
+        var popup_0209056c20ee5825e3e29f71fdfec328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96b6e7d4542524383dbcf3a568b04860 = $(`<div id="html_96b6e7d4542524383dbcf3a568b04860" style="width: 100.0%; height: 100.0%;">充电站7</div>`)[0];
+                popup_0209056c20ee5825e3e29f71fdfec328.setContent(html_96b6e7d4542524383dbcf3a568b04860);
+            
+        
+
+        marker_bbf8d16eb587ec881e4ada63d5ff8104.bindPopup(popup_0209056c20ee5825e3e29f71fdfec328)
+        ;
+
+        
+    
+</script>
+</html>
